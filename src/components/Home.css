@@ -1,0 +1,57 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+
+.card-grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 80%;
+    
+
+}
+
+.card-grid .grid-col{
+    width: 80%;
+    /* margin: 0 1rem 1rem; */
+    margin:2rem 2rem 0 2rem;
+}
+
+
+/* For Tab phones: */
+
+@media only screen and (max-width:600px) {
+  .container {
+    flex-direction: row;
+  }
+  .card-grid{
+    width:100%;
+    flex-direction: row;
+  }
+  .card-grid .grid-col{
+    margin:1rem;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 900px) {
+    
+    .container {
+      flex-direction: row;
+    }
+    .card-grid{
+      flex-direction: row;
+    }
+    .card-grid .grid-col{
+      width:40%;
+      margin:2rem 2rem 0 2rem;
+    }
+  }
+  

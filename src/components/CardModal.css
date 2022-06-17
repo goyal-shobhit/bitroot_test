@@ -1,0 +1,47 @@
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+
+  position: static;
+  left: 20%;
+  top: 10%;
+
+  width: 80vh;
+  height: 80vh;
+  opacity: 1;
+}
+
+.model-footer{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(185, 185, 185);
+    font-weight: 600;
+    
+}
+
+.profile-box {
+    display: block;
+  }
+.avatar-img {
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+
+.close-button {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  font-size: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.dialog-body {
+  background-color: white;
+}
